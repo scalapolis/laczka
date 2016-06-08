@@ -57,6 +57,15 @@ img {
     background-size:     cover;
 }
 
+.menu {
+    width: 97%;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    text-align: right;
+    margin-right: 6%;
+}
+
 .partners {
     width: 90%;
     display: inline-block;
