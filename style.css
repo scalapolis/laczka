@@ -30,7 +30,7 @@ html, body, .container {
     z-index: 1;
 }
 
-.footer{
+.footer {
     position: fixed;
     text-align: center ;
     font-size: 16px ;
@@ -38,6 +38,37 @@ html, body, .container {
     width: 600px ;
     height: 50px ;
     background-color: black ;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    padding-: 10px;
+    margin: 10px;
+}
+
+img {
+    position: relative;
+    min-width: 100px;
+    min-height: 100px;
+    max-height:  150px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.partners {
+    width: 90%;
+    display: inline-block;
+}
+.partners li {
+    padding: 0; /* remove default padding and all margins! */
+    margin: 0;
+    list-style-type: none; /* remove the • */
+}
+
+.partners ul li {
+    float: left;
 }
 
 h1 {
@@ -49,6 +80,7 @@ h1 {
     color: #3C3638;
     font-family: 'Inconsolata', cursive;
 }
+
 h2 {
     display: block;
     vertical-align: middle;
